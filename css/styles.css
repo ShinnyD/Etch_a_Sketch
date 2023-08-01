@@ -1,5 +1,7 @@
 body{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    background-color: lightpink;
 }
 
 h1{
@@ -8,10 +10,11 @@ h1{
 
 #container{
     width: 960px;
+    margin-left: 50px;
+    margin-top: 25px;
 }
 .gridRow{
     display: flex;
-    justify-content: center;
 }
 
 .gridBox{
@@ -19,4 +22,8 @@ h1{
     height: 50px;
     border: 1px solid black;
     background-color: #f8f8ff;
+}
+
+.resetBtn{
+    margin-left: 500px;
 }
